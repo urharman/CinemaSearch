@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h3>ENTER ANY MOVIE TITLE</h3>
+
+<form action="/Home/Search" method="post">
+    <input type="text" name="moviename" placeholder="Movie Name">
+    <input type="submit" value="Search TMDB"><br />
+</form>
